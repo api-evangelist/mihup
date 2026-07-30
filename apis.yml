@@ -1,20 +1,56 @@
 aid: mihup
 name: Mihup
-description: 'Mihup is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Mihup is an enterprise Voice AI and speech analytics platform founded in
+  2016 and headquartered in Kolkata, India. Its full-stack voice AI (ASR, NLU, TTS,
+  analytics) powers four products: Interaction Analytics (MIA) for 100% call auditing,
+  Voice Agent (MVA) for inbound/outbound call automation, Agent Assist (MAA) for real-time
+  live-agent guidance, and Automotive Voice Agent (AVA) for in-car assistants in software-defined
+  vehicles. Proprietary phoneme-based (G2P) recognition supports 120+ languages, accents
+  and dialects including 20+ Indian languages and code-mixed Hinglish. Mihup runs in
+  1.5M+ cars, processes 5M+ interactions daily, and is trusted by 500+ businesses
+  including Tata Motors, SBI Life and IDFC FIRST Bank. ISO 27001 certified, DPDP Act
+  2023 and RBI data-localization compliant, hosted in AWS Mumbai. Mihup exposes APIs
+  and SDKs for IVI systems, chipsets, telecom stacks and CRMs, but publishes no public
+  developer portal — access is enterprise/demo-gated.'
 url: https://raw.githubusercontent.com/api-evangelist/mihup/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6433bfe872548fa6a305b68b/697cb09aa6aca6a0d0a32346_webclip.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - accel
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- Voice AI
+- Speech Recognition
+- Speech Analytics
+- Conversational AI
+- Contact Center
+- Automotive
+- ASR
+- NLU
+- TTS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +59,24 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://mihup.com
+  url: https://mihup.ai
+- type: Pricing
+  url: https://mihup.ai/pricing
+- type: Blog
+  url: https://mihup.ai/blogs
+- type: TermsOfService
+  url: https://mihup.ai/terms-of-use
+- type: PrivacyPolicy
+  url: https://mihup.ai/privacy-policy
+- type: Support
+  url: https://mihup.ai/about-us#contact-us
+- type: LLMsTxt
+  url: llms/mihup-llms.txt
+- type: Compliance
+  url: conformance/mihup-conformance.yml
+- type: Conformance
+  url: conformance/mihup-conformance.yml
+- type: TrustCenter
+  url: security/mihup-trust-center.yml
+- type: DomainSecurity
+  url: security/mihup-domain-security.yml
