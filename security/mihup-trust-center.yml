@@ -1,0 +1,18 @@
+generated: '2026-07-20'
+method: searched
+source: https://mihup.ai/llms.txt
+url: https://mihup.ai/privacy-policy
+certifications:
+- ISO 27001
+compliance:
+- DPDP Act 2023 (India)
+- RBI data-localization (BFSI)
+data_residency: AWS Mumbai region (customer data resides in India)
+evidence:
+- source: https://mihup.ai/llms.txt
+  keywords:
+  - iso 27001 certified
+  - dpdp act 2023 compliant
+  - rbi data-localization compliant
+  - aws mumbai region
+note: 'No dedicated trust.mihup.ai / security portal or bug-bounty program was found on probe; certifications are self-published company facts.'
