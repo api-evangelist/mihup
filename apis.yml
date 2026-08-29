@@ -13,6 +13,17 @@ description: 'Mihup is an enterprise Voice AI and speech analytics platform foun
   and SDKs for IVI systems, chipsets, telecom stacks and CRMs, but publishes no public
   developer portal — access is enterprise/demo-gated.'
 url: https://raw.githubusercontent.com/api-evangelist/mihup/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
